@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+@font-face {
+	font-family: "Blern";
+	src: url('myfonts/Blern regular.otf');
+}
+
+#select {
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+	width: 100%;
+	height: 10%;
+	margin: auto;
+	vertical-align: middle;
+	padding: 0px;
+	text-align: center;
+}
+
+.words {
+	font-family: "Blern";
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff498c;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.choices {
+	text-decoration: none;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	display: inline-block;
+	width: 22%;
+	max-width: 200px;
+	min-width: 125px;
+	margin: 0 5px;
+	height: 100%;
+	vertical-align: middle;
+	background-color: #70ffae;
+}
